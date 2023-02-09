@@ -101,8 +101,7 @@ if %JAVAERROR% EQU 9009 (
   echo Error: Java executable not found. Please ensure that Java is in your path
   pause
   exit /B 1
-)
-else (
+) else (
   echo Error: ArtiSynth encountered a problem. Please check the stack trace for information.
   pause
   exit /B 2
